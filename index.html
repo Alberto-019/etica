@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Códigos de Ética Médica</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Códigos de Ética del Ingeniero en Sistemas Computacionales</h1>
+      <p>Principios que rigen la ética del Ingeniero en Sistemas.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Códigos de Ética</h2>
+
+        <div class="valor">
+          Responsabilidad profesional
+          <div class="descripcion">
+            El ingeniero en sistemas debe actuar con compromiso, veracidad y
+            competencia técnica, garantizando la calidad del software y los
+            servicios que ofrece.
+          </div>
+        </div>
+
+        <div class="valor">
+          Respeto a la propiedad intelectual
+          <div class="descripcion">
+            Debe reconocer y respetar los derechos de autor, evitando el uso no
+            autorizado de software, código o contenido digital.
+          </div>
+        </div>
+
+        <div class="valor">
+          Confidencialidad y privacidad
+          <div class="descripcion">
+            Tiene la obligación de proteger los datos personales y la
+            información sensible de clientes, usuarios y empresas.
+          </div>
+        </div>
+
+        <div class="valor">
+          Uso ético de la tecnología
+          <div class="descripcion">
+            No debe desarrollar ni distribuir programas que causen daño,
+            vulneren la seguridad o sean usados para fines ilícitos.
+          </div>
+        </div>
+
+        <div class="valor">
+          Justicia y respeto
+          <div class="descripcion">
+            Debe tratar a colegas, usuarios y clientes con igualdad, respeto y
+            sin discriminación, fomentando la colaboración profesional.
+          </div>
+        </div>
+
+        <div class="valor">
+          Compromiso con la sociedad
+          <div class="descripcion">
+            Debe contribuir al bienestar de la sociedad mediante soluciones
+            tecnológicas responsables y sostenibles.
+          </div>
+        </div>
+
+        <div class="valor">
+          Actualización continua
+          <div class="descripcion">
+            Tiene el deber de mantenerse actualizado en los avances tecnológicos
+            y mejorar constantemente sus habilidades.
+          </div>
+        </div>
+
+        <div class="valor">
+          Transparencia
+          <div class="descripcion">
+            Actuar con honestidad en la comunicación de resultados, costos y
+            tiempos de desarrollo, sin ocultar información relevante.
+          </div>
+        </div>
+
+        <div class="valor">
+          Seguridad informática
+          <div class="descripcion">
+            Proteger los sistemas contra accesos no autorizados, fraudes o
+            ciberataques, aplicando buenas prácticas de seguridad.
+          </div>
+        </div>
+
+        <div class="valor">
+          Colaboración y trabajo en equipo
+          <div class="descripcion">
+            Promover el trabajo ético con otros profesionales, compartiendo
+            conocimiento y respetando las ideas de los demás.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>Taller de Ética | Elaborado por: Alberto García Vazquez</footer>
+
+    <script>
+      const valores = document.querySelectorAll(".valor");
+      valores.forEach((v) => {
+        v.addEventListener("click", () => {
+          const descripcion = v.querySelector(".descripcion");
+          descripcion.style.display =
+            descripcion.style.display === "block" ? "none" : "block";
+        });
+      });
+    </script>
+  </body>
+</html>
